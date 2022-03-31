@@ -1,9 +1,9 @@
-import { ToDoListApp } from "./components/TodoListApp";
+import { TrafficLight2 } from "./components/TrafficLight";
 
 
 
 function App(props) {
-  return <ToDoListApp/>
+  return <TrafficLight2/>
 }
 
 export default App;

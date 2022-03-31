@@ -16,9 +16,9 @@ export function ToDoForm(props) {
   }
 
   const handleFormSubmit = (e) => {
-      e.preventDefault();
-      onCreateNewToDo(formValue.inputContent);
-      setFormValue(defaultFormValue);
+    e.preventDefault();
+    onCreateNewToDo(formValue.inputContent);
+    setFormValue(defaultFormValue);
   }
 
   return (
@@ -27,7 +27,7 @@ export function ToDoForm(props) {
         placeholder='enter to do'
         value={formValue.inputContent}
         onChange={(e) => { onFormFieldChange('inputContent', e.target.value) }} />
-        <button type='submit'>create</button>
+      <button type='submit'>create</button>
     </form>
   );
 }
