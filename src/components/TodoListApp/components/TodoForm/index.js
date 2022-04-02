@@ -2,10 +2,10 @@ import { useState } from 'react'
 
 
 export function ToDoForm(props) {
+  const { onCreateNewToDo } = props;
   const defaultFormValue = {
     inputContent: '',
   }
-  const { onCreateNewToDo } = props;
   const [formValue, setFormValue] = useState(defaultFormValue);
   // e: Event object
   const onFormFieldChange = (fieldName, newValue) => {
