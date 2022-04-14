@@ -3,7 +3,7 @@ import { ExpenseApp } from "./components/ExpenseApp";
 
 
 function App(props) {
-  return <ExpenseApp/>
+  return <></>
 }
 
 export default App;
