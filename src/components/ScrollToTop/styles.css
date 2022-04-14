@@ -1,0 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.to-top-btn {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
