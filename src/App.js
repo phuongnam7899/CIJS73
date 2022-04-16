@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
-import { HttpRequest, Optimization } from "./components";
+import { HttpRequest, MockApi, Optimization, Revision } from "./components";
 import { RouterLearning } from "./components/Router";
 
 
 
 function App(props) {
-  return <></>
+  return <>
+  <MockApi/>
+  </>
 }
 
 export default App;

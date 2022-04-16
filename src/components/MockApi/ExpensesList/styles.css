@@ -1,0 +1,6 @@
+.expense-item {
+    display: flex;
+}
+.expense-title {
+    margin-right: 100px;
+}
